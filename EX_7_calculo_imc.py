@@ -12,3 +12,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("# OUTPUT ESPERADO: ")
+
+altura = float(input("digite sua altura: "))
+peso = float(input("digite seu peso: "))
+
+imc = float(peso / (altura ** 2))
+
+
+print(f"O seu IMC é: {imc:.2f}")

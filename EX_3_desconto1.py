@@ -12,3 +12,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("OUTPUT ESPERADO: ")
+
+preco = int(input("qual o preco do produto? "))
+porcentagem = int(input("qual a porcentagem de desconto? "))
+
+desconto = preco * (porcentagem / 100)
+preco_final = preco - desconto 
+
+print(f"A multiplicação entre {preco} e {porcentagem / 100} é: {preco_final}")

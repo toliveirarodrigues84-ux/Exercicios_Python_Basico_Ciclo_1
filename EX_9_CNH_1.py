@@ -14,3 +14,10 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("# OUTPUT ESPERADO: ")
+
+print("exemplo 1: ")
+
+idade = int(input("digite sua idade: "))
+print("pode tirar a carteira de motorista?: ", idade >= 18)
+

@@ -8,3 +8,11 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("OUTPUT ESPERADO: ")
+
+numero1 = float(input("digite numero1 "))
+numero2 = float(input("digite numero2 "))
+
+soma = numero1 +  numero2
+
+print(f"A soma entre {numero1} e {numero2} é: {soma}")

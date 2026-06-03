@@ -21,3 +21,54 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("OUTPUT ESPERADO: ")
+
+print("#| ------------------------ |")
+print("#| SISTEMA DE PROVA |")
+aluno = input("#| nome do aluno:  |")
+nota1 = float(input("#| nota da primeira prova:  |"))
+nota2 = float(input("#| nota da segunda prova:  |"))
+nota3 = float(input("#| nota da terceira prova:  |"))
+print("#| ------------------------ |")
+
+soma = (nota1 + nota2 + nota3)
+media = soma / 3
+
+if media >= 5:
+    print("aprovado")
+else:
+     print("reprovado")
+
+print("#| ------------------------ |")
+
+print("#| SISTEMA DE PROVA |")
+aluno = input("#| nome do segundo aluno:  |")
+nota1 = float(input("#| nota da primeira prova:  |"))
+nota2 = float(input("#| nota da segunda prova:  |"))
+nota3 = float(input("#| nota da terceira prova:  |"))
+
+
+soma = (nota1 + nota2 + nota3)
+media = soma / 3
+
+if media >= 5:
+    print("aprovado")
+else:
+     print("reprovado")
+
+print("#| ------------------------ |")
+
+print("#| SISTEMA DE PROVA |")
+aluno = input("#| nome do segundo aluno:  |")
+nota1 = float(input("#| nota da primeira prova:  |"))
+nota2 = float(input("#| nota da segunda prova:  |"))
+nota3 = float(input("#| nota da terceira prova:  |"))
+print("#| ------------------------ |")
+
+soma = (nota1 + nota2 + nota3)
+media = soma / 3
+
+if media >= 5:
+    print("aprovado")
+else:
+     print ("reprovado")

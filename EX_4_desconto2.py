@@ -9,4 +9,13 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("OUTPUT ESPERADO: ")
 
+print("produto: FIAT TORO ")
+preco= int(input("preço: "))
+porcentagem = int(input("porcentagem de desconto: "))
+
+desconto = (preco * (porcentagem / 100))    
+preco_final = (preco - desconto) 
+
+print(f"A multiplicação entre {preco} e {porcentagem / 100} é: {preco_final}")

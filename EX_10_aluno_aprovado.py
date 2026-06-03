@@ -17,3 +17,14 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("# OUTPUT ESPERADO: ")
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+aprovado = media > 7  nota1  > 0 nota2 > 0  nota3 > 0
+
+print(f"Aluno aprovado? {aprovado}")

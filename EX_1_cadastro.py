@@ -16,5 +16,25 @@
 # | Email: maria@email.com
 # | ------------------------------ |
 
-# ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+# ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO ----------------------------------------------------------
+
+print("#| -------------------------------|")
+print("#| ------------CADASTRO-----------|")
+print("#| -------------------------------|")
+
+nome = input(("nome do usuario "))
+idade = input(("digite sua idade "))
+email = input(("digite o seu email "))
+senha  = input(("digite sua senha "))
+
+print("#| -------------------------------|")
+print("#| ----- USUARIO CADASTRADO --------|")
+
+print("seja bem vindo(a) maria! ")
+print("Email: maria@email.com ")
+
+print("#| -------------------------------|")
+
+
+
 

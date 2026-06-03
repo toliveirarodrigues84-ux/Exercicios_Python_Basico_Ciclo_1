@@ -9,5 +9,11 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print("OUTPUT ESPERADO: ")
 
+dollar = float(input("Digite a cotação do dollar: "))
+convertido = float(input("digite a valor em dollar a ser convertido para real: "))
+    
+preco_final = (dollar * convertido ) 
 
+print(f"a multiplicação entre {dollar} e {convertido} :{preco_final}")  
